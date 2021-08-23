@@ -1,0 +1,37 @@
+/* 23 */
+/* 33*/
+/* 31*/
+/* 32*/
+/* 38*/
+#welcome-section {
+  text-align: center;
+  font-size: 19px;
+  height: 100vh;
+}
+
+body {
+  background-image: linear-gradient(90deg, azure, #7285A5, #111e6c); 
+  background-repeat: repeat;
+}
+
+p {
+  color: rgba(16, 32, 33, 0.14)
+}
+
+@media (max-width: 727px) {
+  #aesthetically-pleasing-background-image {
+    width: 500px;
+  }
+}
+
+@media (max-height: 206px) {
+  #aesthetically-pleasing-background-image {
+    width: 420px;
+  }
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
